@@ -1,0 +1,15 @@
+{
+    "late blight": {
+      "info": "Late blight adalah penyakit jamur yang menyerang daun, batang, dan buah kentang. Penyakit ini disebabkan oleh patogen Phytophthora infestans dan dapat menyebabkan kerusakan serius pada tanaman.",
+      "solution": "Gunakan fungisida berbasis tembaga setiap 7-10 hari sekali. Pastikan tanaman memiliki sirkulasi udara yang baik dan hindari penyiraman berlebihan."
+    },
+    "healthy": {
+      "info": "Tanaman kentang dalam keadaan sehat tanpa tanda-tanda penyakit. Daun tampak hijau dan kuat, tanpa bercak atau tanda kerusakan lainnya.",
+      "solution": "Tanaman dalam kondisi baik. Lanjutkan dengan rutinitas pemeliharaan standar seperti penyiraman yang cukup dan pemupukan sesuai kebutuhan."
+    },
+    "early blight": {
+      "info": "Early blight adalah penyakit jamur yang disebabkan oleh Alternaria solani. Penyakit ini menyebabkan bercak coklat pada daun, yang dapat meluas dan menyebabkan penurunan hasil panen.",
+      "solution": "Gunakan fungisida berbasis tembaga atau mankozeb setiap 7-10 hari sekali. Buang dan bakar daun yang terinfeksi untuk mencegah penyebaran penyakit."
+    }
+  }
+  
