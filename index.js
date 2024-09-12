@@ -11,11 +11,11 @@ const PORT = 8000;
 const storage = multer.memoryStorage();
 const upload = multer({ storage: storage });
 
-// Pastikan direktori temp ada
 const tempDir = path.join(__dirname, 'temp');
 if (!fs.existsSync(tempDir)) {
-    fs.mkdirSync(tempDir);
+    console.log('Direktori temp tidak ada. Silakan buat direktori secara manual.');
 }
+
 
 app.post('/predict', upload.single('file'), (req, res) => {
     const location = req.body.location || 'ketapang';
