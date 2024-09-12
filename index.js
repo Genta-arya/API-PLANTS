@@ -68,6 +68,7 @@ app.post("/predict", upload.single("file"), (req, res) => {
         const jsonResult = JSON.parse(jsonMatch[1]);
         return res.json(jsonResult);
       } catch (e) {
+        console.error("Error parsing JSON response:", e);
         return res.status(500).json({
           error: "Error parsing JSON response",
           details: e.message,
@@ -75,6 +76,7 @@ app.post("/predict", upload.single("file"), (req, res) => {
         });
       }
     } else {
+      console.error(e);
       return res.status(500).json({
         error: "No valid JSON found in the output",
         rawResult: result,
